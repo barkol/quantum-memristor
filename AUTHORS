@@ -1,0 +1,20 @@
+Authors of the code and of the two papers of the series (the same authors as in the papers)
+
+Karol Bartkiewicz (corresponding author), Institute of Spintronics and Quantum Information,
+Faculty of Physics and Astronomy, Adam Mickiewicz University, 61-614 Poznan, Poland
+Patrycja Tulewicz, same institute, and Poznan Supercomputing and Networking Center, Institute of Bioorganic Chemistry of the Polish Academy of Sciences, Poznan, Poland
+Adam Miranowicz, same institute
+
+Contributions (as in Part II)
+K.B.: conceptualization, methodology, formal analysis, software, writing (original draft, review and editing), supervision.
+P.T., A.M.: the physical model of the device and the interpretation of the results; review and editing.
+
+The comparison section of Part II uses the external package qsdl by F. Grzywa et al.
+(https://github.com/Askartan/qsdl), which is not part of this repository.
+
+The git history of this repository records all commits under one account (K.B.) because the code was
+assembled and committed from one working copy.
+
+AI assistance: Claude Code (Anthropic) was used to write and run code, to derive and check analytical results, to check numbers against the text, to audit
+the results and to draft text, as stated in the papers and in README.md (Use of AI tools). The authors reviewed the code and checked
+every number and statement.

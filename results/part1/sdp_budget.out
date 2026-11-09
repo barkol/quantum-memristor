@@ -1,0 +1,7 @@
+control R: N=3 0.2679491924308617 N=2 0.17157287525377884  expected 0.2679491924311228 0.1715728752538097
+N=3 Vg=1: post-only third 0.3333 closed 0.3333 | random 0.5773 (1/(V sqrtN)=0.5774) | pre-only third 0.0501 random 0.3337 | split third 0.1111 random 0.5472
+N=3 Vg=0.95: post-only third 0.3999 closed 0.3999 | random 0.6397 (1/(V sqrtN)=0.6397) | pre-only third 0.0693 random 0.5583 | split third 0.2293 random 0.6220
+N=3 Vg=0.9: post-only third 0.4934 closed 0.4934 | random 0.7128 (1/(V sqrtN)=0.7128) | pre-only third 0.1918 random 0.6747 | split third 0.3843 random 0.7036
+N=2 Vg=1: post-only third 0.5000 closed 0.5000 | random 0.7072 (1/(V sqrtN)=0.7071) | pre-only third 0.0501 random 0.5005 | split third 0.2500 random 0.6859
+N=2 Vg=0.95: post-only third 0.5998 closed 0.5998 | random 0.7835 (1/(V sqrtN)=0.7835) | pre-only third 0.1465 random 0.7386 | split third 0.4471 random 0.7743
+N=2 Vg=0.9: post-only third 0.7400 closed 0.7400 | random 0.8729 (1/(V sqrtN)=0.8730) | pre-only third 0.4290 random 0.8619 | split third 0.6879 random 0.8704

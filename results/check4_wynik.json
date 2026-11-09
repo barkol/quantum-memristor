@@ -1,0 +1,32 @@
+{
+ "n16": {
+  "n": 16,
+  "k": 5,
+  "words": 32,
+  "d": 8,
+  "t": 3,
+  "synd_bits": 11,
+  "cnots": 46,
+  "syndrome_data_independent": true
+ },
+ "n32": {
+  "n": 32,
+  "k": 6,
+  "words": 64,
+  "d": 16,
+  "t": 7,
+  "synd_bits": 26,
+  "cnots": 116,
+  "syndrome_data_independent": true
+ },
+ "n64": {
+  "n": 64,
+  "k": 7,
+  "words": 128,
+  "d": 32,
+  "t": 15,
+  "synd_bits": 57,
+  "cnots": 274,
+  "syndrome_data_independent": true
+ }
+}

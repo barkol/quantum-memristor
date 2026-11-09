@@ -1,0 +1,3 @@
+plain Hamming mean 103.79 median 104 sd 2.93 q05,q25,q75,q95 [ 98. 102. 106. 108.] P(<=102)=0.292 P(<=101)=0.198 P(==102)=0.094 t=floor((d-1)/2): median 51.0
+sign-blind min(d,n-d) mean 102.17 median 103 sd 2.79 q05,q25,q75,q95 [ 97. 101. 104. 106.] P(<=102)=0.497 P(<=101)=0.356 P(==102)=0.141 t=floor((d-1)/2): median 51.0
+hadamard min d 128 max 128 sign-blind 128

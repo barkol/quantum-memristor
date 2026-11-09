@@ -1,0 +1,33 @@
+purity test: absent-branch state p|+><+|+(1-p)I/2; N=3,V=1, eps=eta^2 split
+p=1: third eps=0.1111 eta=0.3333 4.77 dB | random eps=0.5472 eta=0.7397 1.31 dB
+p=0.99: third eps=0.1155 eta=0.3398 4.69 dB | random eps=0.5480 eta=0.7403 1.31 dB
+p=0.95: third eps=0.1315 eta=0.3626 4.41 dB | random eps=0.5508 eta=0.7422 1.30 dB
+p=0.9: third eps=0.1492 eta=0.3863 4.13 dB | random eps=0.5539 eta=0.7443 1.28 dB
+p=0.7: third eps=0.2059 eta=0.4538 3.43 dB | random eps=0.5640 eta=0.7510 1.24 dB
+p=0.0: third eps=0.3334 eta=0.5774 2.39 dB | random eps=0.5774 eta=0.7598 1.19 dB
+post threshold at fixed pre (V=1,N=3,third,p=1):
+pre=1: post>0.3334
+pre=0.7: post>0.3334
+pre=0.5: post>0.3334
+pre=0.3: post>0.3334
+replaced+pre-gate noise SDP eta 0.81072998046875 0.9112376665042259 dB; S3 test eta^2(1+2eta)=sqrt3 ->
+0.8123461336591059 0.9025888220249916 dB
+per-pass budget table dB
+N=3 Vg=1 etaA=1: random: viaLoop 1.19 direct 2.39 | third: viaLoop 2.39 direct 4.77
+N=3 Vg=1 etaA=0.9: random: viaLoop 0.96 direct 1.93 | third: viaLoop 2.16 direct 4.31
+N=3 Vg=1 etaA=0.63: random: viaLoop 0.19 direct 0.38 | third: viaLoop 1.38 direct 2.76
+N=3 Vg=0.95 etaA=1: random: viaLoop 0.97 direct 1.94 | third: viaLoop 1.99 direct 3.98
+N=3 Vg=0.95 etaA=0.9: random: viaLoop 0.74 direct 1.48 | third: viaLoop 1.76 direct 3.52
+N=3 Vg=0.95 etaA=0.63: random: viaLoop empty direct empty | third: viaLoop 0.99 direct 1.97
+N=3 Vg=0.9 etaA=1: random: viaLoop 0.74 direct 1.47 | third: viaLoop 1.53 direct 3.07
+N=3 Vg=0.9 etaA=0.9: random: viaLoop 0.51 direct 1.01 | third: viaLoop 1.31 direct 2.61
+N=3 Vg=0.9 etaA=0.63: random: viaLoop empty direct empty | third: viaLoop 0.53 direct 1.06
+N=2 Vg=1 etaA=1: random: viaLoop 0.75 direct 1.51 | third: viaLoop 1.51 direct 3.01
+N=2 Vg=1 etaA=0.9: random: viaLoop 0.52 direct 1.05 | third: viaLoop 1.28 direct 2.55
+N=2 Vg=1 etaA=0.63: random: viaLoop empty direct empty | third: viaLoop 0.50 direct 1.00
+N=2 Vg=0.95 etaA=1: random: viaLoop 0.53 direct 1.06 | third: viaLoop 1.11 direct 2.22
+N=2 Vg=0.95 etaA=0.9: random: viaLoop 0.30 direct 0.60 | third: viaLoop 0.88 direct 1.76
+N=2 Vg=0.95 etaA=0.63: random: viaLoop empty direct empty | third: viaLoop 0.11 direct 0.21
+N=2 Vg=0.9 etaA=1: random: viaLoop 0.30 direct 0.59 | third: viaLoop 0.65 direct 1.31
+N=2 Vg=0.9 etaA=0.9: random: viaLoop 0.07 direct 0.13 | third: viaLoop 0.42 direct 0.85
+N=2 Vg=0.9 etaA=0.63: random: viaLoop empty direct empty | third: viaLoop empty direct empty

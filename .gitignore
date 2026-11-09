@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# figures built by the scripts (rebuilt by reproduce.sh)
+papers/figures/*.pdf
+papers/figures/*.png
+
+# compiled C extensions and checkpoint folders
+*.so
+*.part/

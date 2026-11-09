@@ -1,0 +1,5 @@
+RM(1,4): words 32 n 16 min distance 8 H (11, 16)
+same bit-flip error, 500 draws: branches restored 1.000, syndrome equal 1.000, fidelity min 1.000000 mean 1.000000
+two different errors, 500 draws: fidelity mean 0.5000, min 0.500000, max 0.500000
+one phase flip where the words differ: fidelity 0.0
+RM(1,6): n 64, words 128, distance 32, t 15, ancillas 57, nonzero entries of H 274

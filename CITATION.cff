@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the two companion papers."
+title: "Simulation code and data for two companion papers on a single-photon polarization memristor (Parts I and II)"
+type: software
+authors:
+  - family-names: Bartkiewicz
+    given-names: Karol
+    affiliation: "Institute of Spintronics and Quantum Information, Faculty of Physics and Astronomy, Adam Mickiewicz University, Poznan, Poland"
+  - family-names: Tulewicz
+    given-names: Patrycja
+    affiliation: "Institute of Spintronics and Quantum Information, Faculty of Physics and Astronomy, Adam Mickiewicz University, Poznan, Poland; Poznan Supercomputing and Networking Center, Institute of Bioorganic Chemistry of the Polish Academy of Sciences, Poznan, Poland"
+  - family-names: Miranowicz
+    given-names: Adam
+    affiliation: "Institute of Spintronics and Quantum Information, Faculty of Physics and Astronomy, Adam Mickiewicz University, Poznan, Poland"
+license: MIT
+repository-code: "https://github.com/barkol/quantum-memristor"
+references:
+  - type: article
+    status: submitted
+    title: "Memory-kernel dynamics of a photonic memristor and steering in its coherent extension"
+    authors:
+      - {family-names: Bartkiewicz, given-names: Karol}
+      - {family-names: Tulewicz, given-names: Patrycja}
+      - {family-names: Miranowicz, given-names: Adam}
+    journal: "Physical Review A"
+    year: 2026
+  - type: article
+    status: submitted
+    title: "Memristive associative memories and superposed inputs: A measure-and-prepare limit and a decoder beyond the network"
+    journal: "Physical Review A"
+    authors:
+      - {family-names: Bartkiewicz, given-names: Karol}
+      - {family-names: Tulewicz, given-names: Patrycja}
+      - {family-names: Miranowicz, given-names: Adam}
+    year: 2026
